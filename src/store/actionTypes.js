@@ -1,0 +1,7 @@
+export const CHANGE_SELECTED = 'CHANGE_SELECTED'
+export const CHANGE_MONTH = 'CHANGE_MONTH'
+export const GO_TO_TODAY = 'GO_TO_TODAY'
+export const SET_MONTH = 'SET_MONTH'
+export const SET_YEAR = 'SET_YEAR'
+export const SET_CHANGE_FUNCTION = 'SET_CHANGE_FUNCTION'
+export const SET_DISPLAYED_MONTH = 'SET_DISPLAYED_MONTH'
