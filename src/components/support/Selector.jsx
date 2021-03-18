@@ -1,4 +1,5 @@
 import OutsideClickHandler from 'react-outside-click-handler'
+import PropTypes from 'prop-types'
 import React from 'react'
 
 const labelStyle = {
@@ -29,6 +30,18 @@ const Selector = ({ label, labelColor, children, showOptions, onChange }) => {
             }
         </div>
     )
+}
+
+Selector.propTypes = {
+    label: PropTypes.string.isRequired,
+    labelColor: PropTypes.string,
+    children: PropTypes.any.isRequired,
+    showOptions: PropTypes.bool.isRequired,
+    onChange: PropTypes.func.isRequired,
+}
+
+Selector.defaultProps = {
+    labelColor: 'black',
 }
 
 export default Selector
