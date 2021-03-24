@@ -33,7 +33,7 @@ const Selector = ({ label, labelColor, children, showOptions, onChange }) => {
 }
 
 Selector.propTypes = {
-    label: PropTypes.string.isRequired,
+    label: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     labelColor: PropTypes.string,
     children: PropTypes.any.isRequired,
     showOptions: PropTypes.bool.isRequired,

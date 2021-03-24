@@ -15,7 +15,7 @@ const style = {
     position: 'relative',
 }
 
-const Calendar = ({ displayedMonth, date, onChange, setOnChangeFunction, changeSelected, setDisplayedMonth }) => {
+export const Calendar = ({ displayedMonth, date, onChange, setOnChangeFunction, changeSelected, setDisplayedMonth }) => {
     useEffect(() => {
         setDisplayedMonth(date)
         changeSelected(date)

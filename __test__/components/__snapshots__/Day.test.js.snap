@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day component should render correctly 1`] = `
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "border": "1px solid white",
+      "borderRadius": "50%",
+      "color": "black",
+      "cursor": "pointer",
+      "display": "flex",
+      "fontSize": "1.3rem",
+      "fontWeight": "bold",
+      "height": "2rem",
+      "justifyContent": "center",
+      "margin": "0.4rem",
+      "transitionDuration": "150ms",
+      "width": "2rem",
+    }
+  }
+>
+  1
+</div>
+`;
+
+exports[`Day component should render correctly if this day's selected 1`] = `
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "border": "1px solid white",
+      "borderRadius": "50%",
+      "color": "white",
+      "cursor": "pointer",
+      "display": "flex",
+      "fontSize": "1.3rem",
+      "fontWeight": "bold",
+      "height": "2rem",
+      "justifyContent": "center",
+      "margin": "0.4rem",
+      "transitionDuration": "150ms",
+      "width": "2rem",
+    }
+  }
+>
+  1
+</div>
+`;

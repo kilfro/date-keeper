@@ -1,7 +1,8 @@
-import React from 'react'
 import {isSelected, isToday, isWeekend} from '../dateFunctions'
-import {connect} from 'react-redux'
+
+import React from 'react'
 import {changeSelected} from '../store/actions'
+import {connect} from 'react-redux'
 
 const getStyle = (date, selected) => {
     let color = 'black'
@@ -39,7 +40,7 @@ const getStyle = (date, selected) => {
     }
 }
 
-const Day = ({date, selected, changeSelected}) => {
+export const Day = ({date, selected, changeSelected}) => {
     const changeHandler = () => changeSelected(date)
 
     return <div style={getStyle(date, selected)} onClick={changeHandler}>{date.getDate()}</div>
